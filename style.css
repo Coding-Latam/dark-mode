@@ -121,6 +121,15 @@ ul li {
   }
 }
 
+.mode button {
+  border: 0;
+  background-color: #8e44ad;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px;
+}
+
 .header {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -136,7 +145,7 @@ ul li {
 }
 
 .header__banner {
-  background-image: url("/header.jpg");
+  background-image: url("./images/header.jpg");
   background-size: cover;
   background-position: top;
   min-height: 250px;
