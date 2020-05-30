@@ -5,10 +5,6 @@
   max-width: 290px;
   padding: 10px;
 
-  @media (prefers-color-scheme: dark) {
-    background: rgb(63, 61, 86);
-  }
-
   &__image {
     img {
       max-width: 100%;
@@ -20,20 +16,12 @@
       font-size: 18px;
       font-weight: bold;
       margin-top: 5px;
-
-      @media (prefers-color-scheme: dark) {
-        color: $color-white;
-      }
     }
   }
 
   &__description {
     p {
       font-size: 14px;
-
-      @media (prefers-color-scheme: dark) {
-        color: $color-white-dk;
-      }
     }
   }
 

@@ -17,10 +17,6 @@
     span {
       font-size: 20px;
       margin-left: 10px;
-
-      @media (prefers-color-scheme: dark) {
-        color: $color-white;
-      }
     }
   }
 

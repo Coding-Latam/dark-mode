@@ -38,6 +38,10 @@ body.dark .header__brand {
   color: #ffffff;
 }
 
+button {
+  outline: none;
+}
+
 h1,
 h2,
 h3,
@@ -115,12 +119,6 @@ ul li {
   content: "\e9e9";
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background: #2e2d42;
-  }
-}
-
 .mode button {
   border: 0;
   background-color: #8e44ad;
@@ -155,12 +153,6 @@ ul li {
 .header__brand span {
   font-size: 20px;
   margin-left: 10px;
-}
-
-@media (prefers-color-scheme: dark) {
-  .header__brand span {
-    color: #ffffff;
-  }
 }
 
 .header__logo {
@@ -213,12 +205,6 @@ ul li {
   padding: 10px;
 }
 
-@media (prefers-color-scheme: dark) {
-  .course {
-    background: #3f3d56;
-  }
-}
-
 .course__image img {
   max-width: 100%;
 }
@@ -229,20 +215,8 @@ ul li {
   margin-top: 5px;
 }
 
-@media (prefers-color-scheme: dark) {
-  .course__title h3 {
-    color: #ffffff;
-  }
-}
-
 .course__description p {
   font-size: 14px;
-}
-
-@media (prefers-color-scheme: dark) {
-  .course__description p {
-    color: #dfe4ea;
-  }
 }
 
 .course__button a {
@@ -263,14 +237,5 @@ ul li {
 
 .categories__list li .icon {
   margin-right: 5px;
-}
-
-@media (prefers-color-scheme: dark) {
-  .categories__title {
-    color: #ffffff;
-  }
-  .categories__list li {
-    color: #dfe4ea;
-  }
 }
 /*# sourceMappingURL=style.css.map */

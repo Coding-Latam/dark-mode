@@ -2,4 +2,32 @@
   body {
     background: rgb(46, 45, 66);
   }
+
+  .categories__title {
+    color: $color-white;
+  }
+
+  .categories__list {
+    li {
+      color: $color-white-dk;
+    }
+  }
+
+  .course {
+    background: rgb(63, 61, 86);
+  }
+
+  .course__title {
+    color: $color-white;
+  }
+
+  .course__description {
+    p {
+      color: $color-white-dk;
+    }
+  }
+
+  .header__brand {
+    color: $color-white;
+  }
 }
