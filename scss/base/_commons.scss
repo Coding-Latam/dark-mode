@@ -1,0 +1,16 @@
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+
+  @include breakpoint($sm) {
+    max-width: 690px;
+  }
+
+  @include breakpoint($md) {
+    max-width: 920px;
+  }
+
+  @include breakpoint($lg) {
+    max-width: 1170px;
+  }
+}

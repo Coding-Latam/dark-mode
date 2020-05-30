@@ -1,0 +1,16 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &__categories {
+    width: 20%;
+  }
+
+  &__courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+  }
+}

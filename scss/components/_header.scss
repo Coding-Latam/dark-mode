@@ -1,0 +1,33 @@
+.header {
+  align-items: center;
+  display: flex;
+  margin-bottom: 30px;
+  min-height: 250px;
+  justify-content: space-between;
+
+  &__banner {
+    background-image: url("/header.jpg");
+    background-size: cover;
+    background-position: top;
+    min-height: 250px;
+    width: 80%;
+  }
+
+  &__brand {
+    span {
+      font-size: 20px;
+      margin-left: 10px;
+
+      @media (prefers-color-scheme: dark) {
+        color: $color-white;
+      }
+    }
+  }
+
+  &__logo {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+  }
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Mode Experiment</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <div class="header__logo">
+          <div class="header__image">
+            <img src="/logo.svg" alt="" />
+          </div>
+          <div class="header__brand">
+            <span>Dark Mode</span>
+          </div>
+        </div>
+        <div class="header__banner"></div>
+      </header>
+      <section class="content">
+        <aside class="content__categories">
+          <div class="categories">
+            <h3 class="categories__title">Categorias</h3>
+            <ul class="categories__list">
+              <li><i class="icon icon-fire"></i>Diseño</li>
+              <li><i class="icon icon-happy"></i>Ilustracion</li>
+              <li><i class="icon icon-grin"></i>Desarrollo</li>
+              <li><i class="icon icon-fire"></i>Marketing Digital</li>
+              <li><i class="icon icon-happy"></i>Elearning</li>
+              <li><i class="icon icon-grin"></i>Redes sociales</li>
+              <li><i class="icon icon-fire"></i>Podcast</li>
+            </ul>
+          </div>
+          <div class="mode">
+            <button onclick="changeMode()">Cambiar modo</button>
+          </div>
+        </aside>
+        <article class="content__courses">
+          <div class="course">
+            <div class="course__image">
+              <img src="/curso.jpg" alt="" />
+            </div>
+            <div class="course__title">
+              <h3>Implementando dark mode</h3>
+            </div>
+            <div class="course__description">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="course__button">
+              <a href="/">Comprar</a>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course__image">
+              <img src="/curso.jpg" alt="" />
+            </div>
+            <div class="course__title">
+              <h3>Implementando dark mode</h3>
+            </div>
+            <div class="course__description">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="course__button">
+              <a href="/">Comprar</a>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course__image">
+              <img src="/curso.jpg" alt="" />
+            </div>
+            <div class="course__title">
+              <h3>Implementando dark mode</h3>
+            </div>
+            <div class="course__description">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="course__button">
+              <a href="/">Comprar</a>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course__image">
+              <img src="/curso.jpg" alt="" />
+            </div>
+            <div class="course__title">
+              <h3>Implementando dark mode</h3>
+            </div>
+            <div class="course__description">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="course__button">
+              <a href="/">Comprar</a>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course__image">
+              <img src="/curso.jpg" alt="" />
+            </div>
+            <div class="course__title">
+              <h3>Implementando dark mode</h3>
+            </div>
+            <div class="course__description">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="course__button">
+              <a href="/">Comprar</a>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course__image">
+              <img src="/curso.jpg" alt="" />
+            </div>
+            <div class="course__title">
+              <h3>Implementando dark mode</h3>
+            </div>
+            <div class="course__description">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="course__button">
+              <a href="/">Comprar</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script>
+      function changeMode() {
+        let bodyContent = document.querySelector("body");
+        bodyContent.classList.toggle("dark");
+      }
+    </script>
+  </body>
+</html>
