@@ -1,16 +1,35 @@
 .header {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 30px;
   min-height: 250px;
   justify-content: space-between;
+
+  @include breakpoint($sm) {
+    min-height: 190px;
+  }
+
+  @include breakpoint($md) {
+    min-height: 250px;
+  }
 
   &__banner {
     background-image: url("./images/header.jpg");
     background-size: cover;
     background-position: top;
     min-height: 250px;
-    width: 80%;
+    width: 100%;
+
+    @include breakpoint($sm) {
+      min-height: 190px;
+      width: 70%;
+    }
+
+    @include breakpoint($md) {
+      min-height: 250px;
+      width: 80%;
+    }
   }
 
   &__brand {
@@ -20,10 +39,35 @@
     }
   }
 
+  &__left {
+    display: flex;
+    align-items: center;
+
+    @include breakpoint($sm) {
+      justify-content: flex-start;
+    }
+  }
+
   &__logo {
     align-items: center;
     display: flex;
-    justify-content: flex-start;
-    width: 20%;
+    justify-content: space-between;
+    padding: 10px 15px;
+    width: 100%;
+
+    @include breakpoint($sm) {
+      justify-content: flex-start;
+      width: 30%;
+    }
+
+    @include breakpoint($md) {
+      width: 20%;
+    }
+  }
+
+  .mode {
+    @include breakpoint($sm) {
+      display: none;
+    }
   }
 }

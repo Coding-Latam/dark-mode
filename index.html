@@ -14,11 +14,18 @@
     <main class="container">
       <header class="header">
         <div class="header__logo">
-          <div class="header__image">
-            <img src="./images/logo.svg" alt="" />
+          <div class="header__left">
+            <div class="header__image">
+              <img src="./images/logo.svg" alt="" />
+            </div>
+            <div class="header__brand">
+              <span>Dark Mode</span>
+            </div>
           </div>
-          <div class="header__brand">
-            <span>Dark Mode</span>
+          <div class="header__right">
+            <div class="mode">
+              <button onclick="changeMode()">Cambiar modo</button>
+            </div>
           </div>
         </div>
         <div class="header__banner"></div>
@@ -42,6 +49,7 @@
           </div>
         </aside>
         <article class="content__courses">
+          <h3>Cursos</h3>
           <div class="course">
             <div class="course__image">
               <img src="./images/curso.jpg" alt="" />

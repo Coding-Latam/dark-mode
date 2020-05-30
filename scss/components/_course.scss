@@ -2,8 +2,16 @@
   background-color: $color-white;
   box-shadow: 0 2px 12px 0px rgba(60, 60, 60, 0.1);
   margin-bottom: 30px;
-  max-width: 290px;
+  max-width: 100%;
   padding: 10px;
+
+  @include breakpoint($sm) {
+    max-width: 230px;
+  }
+
+  @include breakpoint($md) {
+    max-width: 290px;
+  }
 
   &__image {
     img {
@@ -31,11 +39,16 @@
       border-radius: 5px;
       color: $color-white;
       display: block;
+      font-family: $font-primary;
       margin-left: auto;
       max-width: 90px;
       padding: 8px;
       text-align: center;
       text-decoration: none;
+
+      &:hover {
+        background-color: #9b59b6;
+      }
     }
   }
 }
