@@ -335,7 +335,7 @@ ul li {
   display: none;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .content .mode {
     display: block;
   }
@@ -357,6 +357,12 @@ ul li {
 }
 
 @media (min-width: 992px) {
+  .course {
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
   .course {
     max-width: 290px;
   }

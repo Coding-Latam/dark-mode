@@ -45,7 +45,7 @@
   .mode {
     display: none;
 
-    @include breakpoint($md) {
+    @include breakpoint($sm) {
       display: block;
     }
   }

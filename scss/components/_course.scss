@@ -10,6 +10,10 @@
   }
 
   @include breakpoint($md) {
+    max-width: 350px;
+  }
+
+  @include breakpoint($lg) {
     max-width: 290px;
   }
 
